@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+
+  .main-nav{
+    display: flex;
+    
+  }
+  .main-nav .logo{
+    max-width: 100%;
+  }
+  img{
+    vertical-align: middle;
+    border: 0;
+  }
+
+  .left-links{
+    margin-left: auto;
+    
+  }
+  .university{
+    margin: 0;
+    font-weight: 400;
+    font-size: 19px!important;
+    line-height: 26px!important;
+    margin-top: 4px!important;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E8B57;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
